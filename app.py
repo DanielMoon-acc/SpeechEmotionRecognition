@@ -144,7 +144,7 @@ def plot_polar(fig, predictions=TEST_PRED, categories=TEST_CAT,
 
 
 def main():
-    side_img = Image.open("images/SERLOGO.png")
+    side_img = Image.open("images/SERLogo.png")
     with st.sidebar:
         st.image(side_img, width=300)
     st.sidebar.subheader("Menu")
