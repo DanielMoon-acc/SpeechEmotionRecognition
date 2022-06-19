@@ -138,7 +138,7 @@ def plot_polar(fig, predictions=TEST_PRED, categories=TEST_CAT,
     ax.set_rlabel_position(0)
     plt.yticks([0, .25, .5, .75, 1], color="grey", size=8)
     plt.suptitle(title, color="darkblue", size=12)
-    plt.title(f"BIG {N}\n", color=COLOR)
+    plt.title(f"Classify into {N}\n Emotions", color=COLOR)
     plt.ylim(0, 1)
     plt.subplots_adjust(top=0.75)
 
