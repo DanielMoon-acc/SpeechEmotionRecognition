@@ -220,7 +220,7 @@ def main():
         
 
         else:
-            st.sidebar.warning("This model is temporarily disabled")
+            st.sidebar.warning("This model is not working yet")
 
     
 
@@ -228,7 +228,7 @@ def main():
             st.markdown("## Analyzing...")
             if not audio_file == "test":
                 st.sidebar.subheader("Audio file")
-                file_details = {"Filename": audio_file.name, "FileSize": audio_file.size}
+                file_details = {"Filename": audio_file.name, "FileSize": audio_file.size / 1024}
                 st.sidebar.write(file_details)
 
             with st.container():
